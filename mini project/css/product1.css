@@ -1,0 +1,226 @@
+/* .product-preview
+{
+    position: fixed;
+    top: 0; left: 0;
+    min-height: 100vh;
+    width: 100%;
+    background: rgba(72, 162, 182, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-preview .preview
+{
+    display: flex;
+    padding: 2rem;
+    text-align: center;
+    background: #fff;
+    position: relative;
+    margin: 2rem;
+    width: 40rem;
+}
+.product-preview .preview.active
+{
+    display: inline-block;
+}
+.product-preview .preview img
+{
+    height: 30rem;
+}*/
+
+.products-preview {
+    position: fixed;
+    top: 0; left: 0;
+    min-height: 100vh;
+    width: 100%;
+    background: rgba(72, 162, 182, 0.1);
+    display: none;
+    align-items: center;
+    justify-content: center; /* Optional: to center the content horizontally */
+}
+
+.products-preview .preview {
+    display: none;
+    padding: 1rem;
+    text-align: center;
+    background: #fff;
+    flex-direction: row-reverse; /* Reverse the order of content and image */
+    align-items: center; /* Align content vertically */
+    padding: 20px;
+    width: 90rem;
+    height: 40rem;
+    margin-top: 10rem;
+}
+.products-preview .preview.active {
+    display: flex; /* Display the active preview */
+}
+
+.products-preview .preview .content {
+    flex-grow: 1; /* Let the content occupy remaining space */
+    padding-right: 20px; /* Add spacing between content and image */
+}
+
+.products-preview .preview img {
+    max-width: 300px; /* Adjust image size as needed */
+    padding: 5px 5px; /* Add spacing between content and image */
+}
+.products-preview .preview .fa-times
+{
+    padding: 10px;
+    margin-bottom: 30rem;
+    cursor: pointer;
+    color: #444;
+    font-size: 4rem;
+}
+.products-preview .preview .fa-times:hover
+{
+    transform: rotate(90deg);
+}
+.products-preview .preview h3
+{
+    color: #444;
+    padding: .5rem 0;
+    font-size: 2.5rem;
+}
+.products-preview .preview span
+{
+    color: #444;
+}
+.products-preview .preview p
+{
+    line-height: 1.5;
+    padding: 1rem 0;
+    font-size: 1.6rem;
+    color: #777;
+}
+.products-preview .preview .price
+{
+    padding: 1rem 0;
+    font: 2.5rem;
+    color: #27ae60;
+}
+.products-preview .preview .button
+{
+    display: flex;
+    gap: 1.5ren;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+.products-preview .preview .button a
+{
+    flex: 1 1 16rem;
+    padding: 1rem;
+    font-size: 1.8rem;
+
+    display: inline-block;
+    margin-top: 1rem;
+    border: var(--border);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    color: rgb(237, 107, 128);
+    cursor: pointer;
+}
+.products-preview .preview .button a.cart
+{
+    background:rgb(237, 107, 128);
+    color: #fff;
+}
+.products-preview .preview .button a:hover
+{
+    background:rgb(237, 107, 128);
+    color: #fff;
+}
+
+
+
+#cart-icon[data-quantity="0"]::after
+{
+    content: "";
+}
+#cart-icon[data-quantity]::after
+{
+    content: attr(data-quantity);
+    top: -20px;
+    right: -20px;
+    width: 20px;
+    height: 20px;
+    background: rgb(151, 67, 224);
+    border-radius: 50%;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* 
+.warpper
+{
+    width: 95%;
+    margin: 0 auto;
+}
+#search-container{
+    margin: 1em 0;
+}
+#search-container input{
+    background-color: transparent;
+    width: 40%;
+    border-bottom: 2px solid #110f29;
+    padding: 1em 0.3em;
+}
+#search-container input:focus
+{
+    border-bottom-color: #6759ff;
+}
+#search-container button
+{
+    padding: 1em 2em;
+    margin-left: 1em;
+    background-color:#6759ff;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 0.5em;
+}
+
+#product{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 1.5em;
+    padding:2em 0;
+}
+.card
+{
+    background-color: #ffffff;
+    max-width: 18em;
+    margin-top:1em;
+    padding: 1em;
+    border-radius:5px;
+    box-shadow: 1em 2em 2.5em rgba(1, 2, 68, 0.08);
+}
+.image-container
+{
+    text-align: center;
+}
+img
+{
+    max-width: 100%;
+    object-fit: contain;
+    height: 15em;
+
+} */
+
+
+
+@media(max-width:991px)
+{
+    html{
+        font-size: 55%;
+    }
+}
+@media (max-width:450px){
+    html{
+        font-size: 50%;
+    }
+}

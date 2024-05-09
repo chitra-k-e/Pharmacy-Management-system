@@ -1,0 +1,480 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiz="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DM/products</title>
+
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link rel="stylesheet" href="css/product.css">
+        <link rel="stylesheet" href="css/product1.css">
+
+        <!-- font awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- font awesome -->
+        <!-- font family-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+        <!--font family -->
+        <style>
+            /* Add these CSS rules to your existing CSS file */
+
+        /* Search box styles */
+        .navbar {
+            display: flex;
+            align-items: center;
+        }
+
+        #search-input {
+            
+            padding: 8px;
+            margin-top: 25px;
+            margin-left: 30px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 200px; /* Adjust width as needed */
+        }
+
+        /* Adjustments to navbar link spacing */
+        .navbar a {
+            margin-right: 10px;
+        }
+
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <a href="#" class="logo"><img style="width: 10%;" src="image/logo.png" alt=""> &nbsp;&nbsp;Dheeran Medicals</a>
+            <nav class="navbar">
+                <a href="home1.html">Home</a>
+                <a href="cart.html">Cart</a>
+                <a href="login.html">SignUp/Login</a>
+            </nav>
+            <div id="menu-btn" class="fas fa-bars"> </div>
+        </header>
+        <section class="home" id="home">
+            <div class="content" style="display: flex;">
+                <h3>Shop by <span style="color: rgb(237, 107, 128);">Categories</span></h3> 
+                <h3><input type="text" class="" id="search-input" placeholder="Search medicines..."></h3>
+                <div class="cat">
+                    <a href="#product1" class="btn">Elderly Care<span class="fas fa-chevron-right"></span></a> 
+                    <a href="#product1"  class="btn">Summer Essentials <span class="fas fa-chevron-right"></span></a>
+                    <a href="#healthcare" class="btn">Healthcare Devices<span class="fas fa-chevron-right"></span></a> 
+                    <a href="#personalcare" class="btn">Personal Care <span class="fas fa-chevron-right"></span></a>
+                    <a href="#mother-babycare" class="btn">Health food and drinks <span class="fas fa-chevron-right"></span></a> 
+                    <a href="#Skincare" class="btn">Skin Care <span class="fas fa-chevron-right"></span></a>
+                    <a href="#motherbabycare"  class="btn">Mother and Baby Care <span class="fas fa-chevron-right"></span></a>
+                </div>
+            </div>
+        </section>
+        <!-- Elderly Care -->
+        <div id="product1" class="section-p1">
+            <!-- <div class="wrapper">
+                <div id="search-container">
+                    <input type="search" placeholder="Search product name here" id="search-input">
+                    <button id="search">Search</button>
+                </div>
+                
+            </div> -->
+            <h1 class="heading"><span>Elderly Care</span></h1>
+            <div class="pro-container products-container">
+
+                <div class="pro product" data-name="p-1">
+                    <img src="image/products/pro1.png" alt="">
+                    <div class="des">
+                        <h3 class="product-title">Glucon-D</h3>
+                        <p>Regular Instant Energy Drink Powder, 1 kg Refill Pack</p>
+                    </div>
+                    <a class="btn">View More<span class="fas fa-chevron-right"></span></a>
+                </div>
+
+                <div class="pro product" data-name="p-2">
+                    <img style="height: 20rem;"  src="image/products/ec1.png" alt="">
+                    <div class="des">
+                        <h3>Glycomet</h3>
+                         <p>Glycomet is a brand name for the <br> drug Metformin, which is commonly <br> used to treat type 2 diabetes. </p> 
+                    </div>
+                    <a style="margin-top:20px;" class="btn">View More<span class="fas fa-chevron-right"></span></a>
+                </div>
+
+                <div class="pro product" data-name="p-3">
+                    <img src="image/products/ec3.png" alt="">
+                    <div class="des">
+                        <h3>Clopicard</h3>
+                        <p>Clopicard 75mg Tablet is used to prevent formation of blood clots, thus reducing the risk of heart attacks or stroke</p>
+                    </div>
+                    <a class="btn">View More<span class="fas fa-chevron-right"></span></a>
+                </div>
+
+                <div class="pro product" data-name="p-4">
+                    <img src="image/products/ec9.png" alt="">
+                    <div class="des"> <br> <br>
+                        <h3>Crocin Pain Relief</h3>
+                        <p>rocin Pain Relief is used for symptomatic relief from mild to moderate pain</p>
+                    </div>
+                    <a class="btn">View More<span class="fas fa-chevron-right"></span></a>
+                </div>
+
+                <div class="pro product" data-name="p-5">
+                    <img src="image/products/ec5.png" alt="">
+                    <div class="des">
+                        <h3>Triformin</h3>
+                        <p> They work by different mechanisms to provide better control of blood sugar when single or dual therapy is not effective.</p>
+                    </div>
+                    <a class="btn">View More<span class="fas fa-chevron-right"></span></a>
+                </div>
+
+                <div class="pro product" data-name="p-6">
+                    <img src="image/products/ec6.png" alt="">
+                    <div class="des">
+                        <h3>Glucon-D</h3>
+                        <p>Regular Instant Energy Drink Powder, 1 kg Refill Pack</p>
+                    </div>
+                    <a class="btn">View More<span class="fas fa-chevron-right"></span></a>
+                </div>
+
+                <div class="pro product" data-name="p-7">
+                    <img src="image/products/ec7.png" alt="">
+                    <div class="des">
+                        <h3>Glucon-D</h3>
+                        <p>Regular Instant Energy Drink Powder, 1 kg Refill Pack</p>
+                    </div>
+                    <a class="btn">View More<span class="fas fa-chevron-right"></span></a>
+                </div>
+
+                <div class="pro product" data-name="p-8">
+                    <img src="image/products/ec8.png" alt="">
+                    <div class="des">
+                        <h3>Glucon-D</h3>
+                        <p>Regular Instant Energy Drink Powder, 1 kg Refill Pack</p>
+                    </div>
+                    <a class="btn">View More<span class="fas fa-chevron-right"></span></a>
+                </div>
+
+            </div>
+        </div>
+        <!-- summer Essentials end-->
+
+        <!-- healthcare -->
+        <!-- <div id="product1" class="section-p1">
+            <h1 id="healthcare" class="heading"><span>HealthCare Devices</span></h1>
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="image/products/product1.png" alt="">
+                    <div class="des">
+                        <h3>Glucon-D</h3>
+                        <p>Regular Instant Energy Drink Powder</p>
+                    </div>
+                    <a href="shop.html" style="margin-left: 50px;" class="btn">Add to Cart<span class="fas fa-chevron-right"></span></a>
+                </div>
+                <div class="pro">
+                    <img src="image/products/product1.png" alt="">
+                    <div class="des">
+                        <h3>Glucon-D</h3>
+                        <p>Regular Instant Energy Drink Powder, 1 kg Refill Pack</p>
+                    </div>
+                    <a href="shop.html" style="margin-left: 50px;" class="btn">Add to Cart<span class="fas fa-chevron-right"></span></a>
+                </div>
+                <div class="pro">
+                    <img src="image/products/product1.png" alt="">
+                    <div class="des">
+                        <h3>Glucon-D</h3>
+                        <p>Regular Instant Energy Drink Powder, 1 kg Refill Pack</p>
+                    </div>
+                    <a href="shop.html" style="margin-left: 50px;" class="btn">Add to Cart<span class="fas fa-chevron-right"></span></a>
+                </div>
+                <div class="pro">
+                    <img src="image/products/product1.png" alt="">
+                    <div class="des">
+                        <h3>Glucon-D</h3>
+                        <p>Regular Instant Energy Drink Powder, 1 kg Refill Pack</p>
+                    </div>
+                    <a href="shop.html" style="margin-left: 50px;" class="btn">Add to Cart<span class="fas fa-chevron-right"></span></a>
+                </div>
+                <div class="pro">
+                    <img src="image/products/product1.png" alt="">
+                    <div class="des">
+                        <h3>Glucon-D</h3>
+                        <p>Regular Instant Energy Drink Powder, 1 kg Refill Pack</p>
+                    </div>
+                    <a href="shop.html" style="margin-left: 50px;" class="btn">Add to Cart<span class="fas fa-chevron-right"></span></a>
+                </div>
+                <div class="pro">
+                    <img src="image/products/product1.png" alt="">
+                    <div class="des">
+                        <h3>Glucon-D</h3>
+                        <p>Regular Instant Energy Drink Powder, 1 kg Refill Pack</p>
+                    </div>
+                    <a href="shop.html" style="margin-left: 50px;" class="btn">Add to Cart<span class="fas fa-chevron-right"></span></a>
+                </div>
+                <div class="pro">
+                    <img src="image/products/product1.png" alt="">
+                    <div class="des">
+                        <h3>Glucon-D</h3>
+                        <p>Regular Instant Energy Drink Powder, 1 kg Refill Pack</p>
+                    </div>
+                    <a href="shop.html" style="margin-left: 50px;" class="btn">Add to Cart<span class="fas fa-chevron-right"></span></a>
+                </div>
+                <div class="pro">
+                    <img src="image/products/product1.png" alt="">
+                    <div class="des">
+                        <h3>Glucon-D</h3>
+                        <p>Regular Instant Energy Drink Powder, 1 kg Refill Pack</p>
+                    </div>
+                    <a href="shop.html" style="margin-left: 50px;" class="btn">Add to Cart<span class="fas fa-chevron-right"></span></a>
+                </div>
+            </div>
+            </div> -->
+            <!-- healthcare ends -->
+
+
+
+        <!-- preview-ec -->
+    <section id="products">
+        <div class="products-preview" >  
+            <div class="preview product" data-target="p-1">
+                <i class="fas fa-times"></i>
+                <div class="content product-info" >
+                    <h3 class="product-title"> Glucon-D</h3>
+                    <p class="product-quantity">Quantity : 1 kg Refill Pack</p>
+                    <p class="product-date">Expiry date: 30/12/2025</p> 
+                    <p class="product-price">Price : Rs.50.00</p>
+                    <p class="product-manu">Manufacture: Zydus Lifesciences</p>
+                    <p>Regular Instant Energy Drink Powder</p>
+                    <div class="button">
+                        <a href="#" class="buy add-to-cart"
+                        data-name="Glucon-D"
+                        data-quantity="1 kg Refill Pack"
+                        data-price=50.00>add to cart</a>
+                    </div>
+                </div>
+                <img class="product-img" src="image/products/pro1.png" alt="">
+            </div>
+        
+            <div class="preview" data-target="p-2">
+                <i class="fas fa-times"></i>
+                <div class="content">
+                    <h3>Glycomet</h3>
+                    <p>Quantity : 500mg</p>
+                    <p>Expiry date: 30/12/2025</p>
+                    <p>Price : Rs:2.00</p>
+                    <p>Manufacture: USV pvt ltd</p>
+                    <p>Glycomet is a brand name for the drug Metformin, which is commonly used to treat type 2 diabetes. </p>
+                    <div class="button">
+                        <a href="#" class="buy add-to-cart"
+                        data-name="Glycomet"
+                        data-quantity="500mg"
+                        data-price=2.00>add to cart</a>
+                    </div>
+                </div>
+                <img src="image/products/ec1.png" alt="">
+            </div>
+
+            <div class="preview" data-target="p-3">
+                <i class="fas fa-times"></i>
+                <div class="content">
+                    <h3>Clopicard</h3>
+                    <p>Quantity : 75mg</p>
+                    <p>Expiry date:30/03/2025</p> 
+                    <p>Price : Rs:7.40</p>
+                    <p>Manufacture: Cipla</p>
+                    <p>It facilitates smooth circulation of blood in the body by reducing the ability of the platelets to stick together</p>
+                    <div class="button">
+                        <a href="#" class="buy add-to-cart"
+                        data-name="Clopicard"
+                        data-quantity="75mg"
+                        data-price=7.40>add to cart</a>
+                    </div>
+                </div>
+                <img src="image/products/ec3.png" alt="">
+            </div>
+            <div class="preview" data-target="p-4">
+                <i class="fas fa-times"></i>
+                <div class="content">
+                    <h3>Crocin Pain Relief</h3>
+                    <p>Quantity : 15 tablets</p>
+                    <p>Expiry date: 3/03/2025</p> 
+                    <p>Price : Rs:70.84</p>
+                    <p>Manufacture: Front Line Pharmaceuticals Pvt. Ltd.</p>
+                    <p>Crocin Pain Relief contains paracetamol, which is an analgesic, and caffeine, which acts as an adjuvant to the analgesic effect of paracetamol</p>
+                    <div class="button">
+                        <a href="#" class="buy add-to-cart"
+                        data-name="Crocin Pain Relief"
+                        data-quantity=" 15 tablets"
+                        data-price="Rs:70.84">add to cart</a>
+                    </div>
+                </div>
+                <img src="image/products/ec9.png" alt="">
+            </div>
+            <div class="preview" data-target="p-5">
+                <i class="fas fa-times"></i>
+                <div class="content">
+                    <h3>Crocin Pain Relief</h3>
+                    <p>Quantity : 15 tablets</p>
+                    <p>Expiry date: 3/03/2025</p> 
+                    <p>Price : Rs:70.84</p>
+                    <p>Manufacture: Front Line Pharmaceuticals Pvt. Ltd.</p>
+                    <p>Crocin Pain Relief contains paracetamol, which is an analgesic, and caffeine, which acts as an adjuvant to the analgesic effect of paracetamol</p>
+                </div>
+                <img src="image/products/ec5.png" alt="">
+            </div>
+            <div class="preview" data-target="p-6">
+                <i class="fas fa-times"></i>
+                <div class="content">
+                    <h3>gulcose</h3>
+                    <p>Energy Drink</p>
+                    <div class="price">Rs.50.00</div>
+                    <div class="button">
+                        <a href="#" class="buy add-to-cart"
+                        data-name="Glycomet"
+                        data-quantity="500mg"
+                        data-price="Rs:2.00">add to cart</a>
+                    </div>
+                </div>
+                <img src="image/products/ec6.png" alt="">
+            </div>
+            <div class="preview" data-target="p-7">
+                <i class="fas fa-times"></i>
+                <div class="content">
+                    <h3>gulcose</h3>
+                    <p>Energy Drink</p>
+                    <div class="price">Rs.50.00</div>
+                    <div class="button">
+                        <a href="" class="buy add-to-cart"
+                        data-name="Glycomet"
+                        data-quantity="500mg"
+                        data-price="Rs:2.00">add to cart</a>
+                    </div>
+                </div>
+                <img src="image/products/ec7.png" alt="">
+            </div>
+            <div class="preview" data-target="p-8">
+                <i class="fas fa-times"></i>
+                <div class="content">
+                    <h3>gulcose</h3>
+                    <p>Energy Drink</p>
+                    <div class="price">Rs.50.00</div>
+                    <div class="button">
+                        <a href="" class="buy add-to-cart"
+                        data-name="Glycomet"
+                        data-quantity="500mg"
+                        data-price="Rs:2.00">add to cart</a>
+                    </div>
+                </div>
+                <img src="image/products/ec8.png" alt="">
+            </div>
+        </div>
+    </section>
+        <!-- preview-ec ends-->
+
+        <!-- preview-hc -->
+        <div class="products-preview" >  
+            <div class="preview" data-target="p-1">
+                <i class="fas fa-times"></i>
+                <div class="content">
+                    <h3>gulcose</h3>
+                    <p>Energy Drink</p>
+                    <div class="price">Rs.50.00</div>
+                    <div class="button">
+                        <a href="" class="buy">add to cart</a>
+                    </div>
+                </div>
+                <img src="image/products/pro1.png" alt="">
+            </div>
+        
+            <div class="preview" data-target="p-2">
+                <i class="fas fa-times"></i>
+                <div class="content">
+                    <h3>gulcose</h3>
+                    <p>Energy Drink</p>
+                    <div class="price">Rs.50.00</div>
+                    <div class="button">
+                        <a href="" class="buy">add to cart</a>
+                    </div>
+                </div>
+                <img src="image/products/ec1.png" alt="">
+            </div>
+
+            <div class="preview" data-target="p-3">
+                <i class="fas fa-times"></i>
+                <div class="content">
+                    <h3>gulcose</h3>
+                    <p>Energy Drink</p>
+                    <div class="price">Rs.50.00</div>
+                    <div class="button">
+                        <a href="" class="buy">add to cart</a>
+                    </div>
+                </div>
+                <img src="image/products/ec7.png" alt="">
+            </div>
+            <div class="preview" data-target="p-4">
+                <i class="fas fa-times"></i>
+                <div class="content">
+                    <h3>gulcose</h3>
+                    <p>Energy Drink</p>
+                    <div class="price">Rs.50.00</div>
+                    <div class="button">
+                        <a href="" class="buy">add to cart</a>
+                    </div>
+                </div>
+                <img src="image/products/ec8.png" alt="">
+            </div>
+            <div class="preview" data-target="p-5">
+                <i class="fas fa-times"></i>
+                <div class="content">
+                    <h3>gulcose</h3>
+                    <p>Energy Drink</p>
+                    <div class="price">Rs.50.00</div>
+                    <div class="button">
+                        <a href="" class="buy">add to cart</a>
+                    </div>
+                </div>
+                <img src="image/products/ec9.png" alt="">
+            </div>
+            <div class="preview" data-target="p-6">
+                <i class="fas fa-times"></i>
+                <div class="content">
+                    <h3>gulcose</h3>
+                    <p>Energy Drink</p>
+                    <div class="price">Rs.50.00</div>
+                    <div class="button">
+                        <a href="" class="buy">add to cart</a>
+                    </div>
+                </div>
+                <img src="image/products/ec3.png" alt="">
+            </div>
+            <div class="preview" data-target="p-7">
+                <i class="fas fa-times"></i>
+                <div class="content">
+                    <h3>gulcose</h3>
+                    <p>Energy Drink</p>
+                    <div class="price">Rs.50.00</div>
+                    <div class="button">
+                        <a href="" class="buy">add to cart</a>
+                    </div>
+                </div>
+                <img src="image/products/ec2.png" alt="">
+            </div>
+            <div class="preview" data-target="p-8">
+                <i class="fas fa-times"></i>
+                <div class="content">
+                    <h3>gulcose</h3>
+                    <p>Energy Drink</p>
+                    <div class="price">Rs.50.00</div>
+                    <div class="button">
+                        <a href="" class="buy">add to cart</a>
+                    </div>
+                </div>
+                <img src="image/products/ec6.png" alt="">
+            </div>
+        </div>
+        <!-- preview-hc ends-->
+        
+        <script src="js/home.js"></script>
+        <script src="js/product.js"></script>
+    </body>
+</html>
